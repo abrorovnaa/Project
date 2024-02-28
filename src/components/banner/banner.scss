@@ -1,0 +1,55 @@
+    .all-banner {
+        padding: 40px 0;
+        position: relative;
+        height: 605px;
+
+        
+        .banner {
+
+            .first-product {
+                position: absolute;
+                top: 24px;
+                left: 23%;
+                z-index: 20;
+            }
+
+            .second-product {
+                position: absolute;
+                top: 197px;
+                left: 17%;
+                z-index: 11;
+
+            }
+
+            .third-product {
+                position: absolute;
+                top: 123px;
+                left: 44%;
+                z-index: 12;
+
+            }
+            
+            .fourth-product {
+                position: absolute;
+                top: 333px;
+                left: 12%;
+                z-index: -10;
+
+            }
+            .fifth-product {
+                position: absolute;
+                top: 201px;
+                right: 22%;
+                z-index: 9;
+
+            }
+            
+            .sixth-product {
+                position: absolute;
+                top: 333px;
+                right: 17%;
+                z-index: -10;
+
+            }
+        }
+    }

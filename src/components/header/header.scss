@@ -1,0 +1,28 @@
+header {
+    padding: 20px 0;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            font-weight: 500;
+            text-decoration: none;
+            color: #08304a;
+            font-size: 20px;
+            transition: all ease 0.5s;
+            border-bottom: 1px solid transparent;
+
+            &:hover {
+                border-bottom: 1px solid #08304a;
+                transition: all ease 0.5s;
+            }
+
+            img {
+                width: 70px;
+                height: 76px;
+            }
+        }
+    }
+}
