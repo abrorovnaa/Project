@@ -1,0 +1,29 @@
+.all-location {
+    padding: 70px 0;
+
+    .location {
+        // height: 00px;
+
+        .location-cards {
+            width: 100%;
+            margin: 0 auto;
+            height: 505px;
+            border-radius: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #08304a;
+
+            .card-left {
+                padding: 35px;
+                width: 50%;
+
+            }
+
+            .card-right {
+                width: 50%;
+                height: 100%;
+            }
+        }
+    }
+}

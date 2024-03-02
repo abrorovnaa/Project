@@ -1,0 +1,25 @@
+.all-connect {
+    padding: 50px 0;
+    position: relative;
+    .connect {
+        width: 100%;
+        display: flex;
+        // justify-content: space-evenly;
+        background-image: url(../../assets/images/valley.jpg);
+        height: 692px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        border-radius: 24px;
+
+
+        .connect-right {
+            position: absolute;
+            top: 50px;
+            right: 188px;
+            width: 35%;
+
+
+        }
+    }
+}

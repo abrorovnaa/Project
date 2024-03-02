@@ -1,0 +1,39 @@
+.about-company{
+    padding: 50px 0;
+    .about{
+        .about-title{
+            h1{
+                text-align: center;
+                font-size: 35px;
+                color: #08304a;
+                font-weight: 600;
+                margin-bottom: 30px;
+    
+            }
+        }
+        .about-cards{
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+            background: #08304a;
+            padding: 40px;
+            border-radius: 12px;
+            .about-card-title{
+                h1{
+                    text-align: center;
+                    font-size: 24px;
+                    color: #fff;
+                    font-weight: 600;
+                    max-width: 80%;
+                    margin: 0 auto 40px auto;
+                }
+            }
+            .about-products{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: flex-start;
+                gap: 30px;
+            }
+        }
+    }
+}

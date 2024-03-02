@@ -12,7 +12,7 @@ const Header = () => {
               <Link to={"/"}>
                 <img src={Logo} alt="Error" />
               </Link>
-              <Link to={"/"}>Kompaniya</Link>
+              <Link to={"/company"}>Kompaniya</Link>
               <Link to={"/"}>Xarid qilish</Link>
               <Link to={"/"}>Mahsulotlar</Link>
               <Link to={"/"}>Media</Link>

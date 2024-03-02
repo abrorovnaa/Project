@@ -1,0 +1,19 @@
+.location-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 25px;
+    padding: 30px 0;
+    img{
+        width: 50px;
+        height: 60px;
+    }
+    a{
+        font-size: 20px;
+        font-weight: 400;
+        color: #5fabf2;
+        text-align: center;
+
+    }
+}
