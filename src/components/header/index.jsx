@@ -14,7 +14,7 @@ const Header = () => {
               </Link>
               <Link to={"/company"}>Kompaniya</Link>
               <Link to={"/"}>Xarid qilish</Link>
-              <Link to={"/"}>Mahsulotlar</Link>
+              <Link to={"/products"}>Mahsulotlar</Link>
               <Link to={"/"}>Media</Link>
             </div>
           </div>

@@ -1,0 +1,17 @@
+.all-product-cards{
+    .product-cards{
+        h1{
+            text-align: center;
+            font-size: 35px;
+            color: #08304a;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .card-buttons{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+        }
+    }
+}
