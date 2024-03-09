@@ -1,23 +1,26 @@
-.product-button{
-    width: 161px;
-    height: 190px;
+.product-button {
+  width: 161px;
+  height: 190px;
+  &.active {
+    background-color: red;
+  }
 
-    button{
-        border: none;
-        outline: none;
-        background: #08304a;
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-        cursor: pointer;
-        
-        img{
-            object-fit: contain;
-        }
+  button {
+    border: none;
+    outline: none;
+    background: #08304a;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    img {
+      object-fit: contain;
     }
-    p{
-        text-align: center;
-        font-size: 18px;
-        font-weight: 500;
-    }
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
